@@ -1,0 +1,28 @@
+# Galimi GUI build note (2026-10-06)
+#
+# Source: monero-gui master (d7c2f13), branch `galimi`, commit a03a1ce
+# (rebrand). Core linked via symlink monero/ -> ../galimi (our fork).
+# Configure: cmake .. -DCMAKE_BUILD_TYPE=Release -DMANUAL_SUBMODULES=1
+#   (MANUAL_SUBMODULES bypasses the submodule-head check for the symlinked fork)
+#
+# Rebrand applied:
+# - main.qml: default mainnet daemon RPC port 18081 -> 28081
+# - src/main/Logger.cpp: log dir .bitmonero -> .galimi
+# - src/libwalletqt/Wallet.cpp: bitmonero.log -> galimi.log
+# - src/main/main.cpp: app/org identity -> galimi-core / galimi
+# - main.qml: window title "Monero" -> "Galimi"; desktop-entry + Tails strings
+# - CMakeLists: project monero-gui -> galimi-gui
+# - wizard: network dropdown mainnet-only (no testnet/stagenet)
+# - QML display strings: standalone XMR -> GAL (identifiers untouched)
+# - installers/windows/Monero.iss: AppName + registry keys -> Galimi
+# - pages/Mining.qml: default RPC port help text -> 28081
+#
+# Deps installed on build VM: qtbase5-dev qtdeclarative5-dev
+# qtquickcontrols2-5-dev, qml modules (controls2, dialogs, labs-settings,
+# labs-folderlistmodel, graphicaleffects), qttools5-dev, libqt5svg5-dev,
+# libqt5xmlpatterns5-dev, libgcrypt20-dev; external/quirc submodule inited.
+#
+# Build order: daemon/simplewallet first (running, proc_dc2da2ee78bf), then
+#   cd build && make -j2
+# on 2 cores — expect several hours. Daemon binary stays named `monerod`,
+# which is what the GUI launches from its own directory.
