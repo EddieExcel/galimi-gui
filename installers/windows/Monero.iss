@@ -4,7 +4,7 @@
 #define GuiVersion GetFileVersion("bin\monero-wallet-gui.exe")
 
 [Setup]
-AppName=Monero GUI Wallet
+AppName=Galimi GUI Wallet
 ; For InnoSetup this is the property that uniquely identifies the application as such
 ; Thus it's important to keep this stable over releases
 ; With a different "AppName" InnoSetup would treat a mere update as a completely new application and thus mess up
@@ -22,7 +22,7 @@ WizardImageFile=WelcomeImage.bmp
 DisableWelcomePage=no
 LicenseFile=LICENSE
 AppPublisher=The Monero Developer Community
-AppPublisherURL=https://getmonero.org
+AppPublisherURL=https://pregman.trade
 TimeStampsInUTC=yes
 CompressionThreads=1
 
@@ -220,7 +220,7 @@ begin
 
   // Evaluate proposal for the blockchain location
   // In case of an update take the blockchain location from the actual setting in the registry
-  RegQueryStringValue(HKEY_CURRENT_USER, 'Software\monero-project\monero-core', 'blockchainDataDir', blockChainDir);
+  RegQueryStringValue(HKEY_CURRENT_USER, 'Software\galimi\galimi-core', 'blockchainDataDir', blockChainDir);
   if blockChainDir = '' then begin
     blockChainDir := GetPreviousData('BlockChainDir', '');
   end;
@@ -357,9 +357,9 @@ Name: "{commondesktop}\GUI Wallet"; Filename: "{app}\monero-wallet-gui.exe"; Tas
 ; Store any special flags for the daemon in the registry location where the GUI wallet will take it from
 ; So if the wallet is used to start the daemon instead of the separate icon the wallet will pass the correct flags
 ; Side effect, mostly positive: The uninstaller will clean the registry
-Root: HKCU; Subkey: "Software\monero-project"; Flags: uninsdeletekeyifempty
-Root: HKCU; Subkey: "Software\monero-project\monero-core"; Flags: uninsdeletekey
-Root: HKCU; Subkey: "Software\monero-project\monero-core"; ValueType: string; ValueName: "blockchainDataDir"; ValueData: {code:BlockChainDirOrEmpty};
+Root: HKCU; Subkey: "Software\galimi"; Flags: uninsdeletekeyifempty
+Root: HKCU; Subkey: "Software\galimi\galimi-core"; Flags: uninsdeletekey
+Root: HKCU; Subkey: "Software\galimi\galimi-core"; ValueType: string; ValueName: "blockchainDataDir"; ValueData: {code:BlockChainDirOrEmpty};
 
 ; Configure a custom URI scheme: Links starting with "monero:" will start the GUI wallet exe with the URI as command-line parameter
 ; Used to easily start payments; example URI: "monero://<address>?tx_amount=5.0"

@@ -56,7 +56,7 @@ import "version.js" as Version
 ApplicationWindow {
     id: appWindow
     signal gracefulShutdownComplete()
-    title: "Monero" +
+    title: "Galimi" +
         (persistentSettings.displayWalletNameInTitleBar && walletName
         ? " - " + walletName
         : "")
@@ -436,8 +436,8 @@ ApplicationWindow {
         leftPanel.balanceString = balance
         leftPanel.balanceUnlockedString = balanceU
         if (middlePanel.state === "Account") {
-            middlePanel.accountView.balanceAllText = walletManager.displayAmount(appWindow.currentWallet.balanceAll()) + " XMR";
-            middlePanel.accountView.unlockedBalanceAllText = walletManager.displayAmount(appWindow.currentWallet.unlockedBalanceAll()) + " XMR";
+            middlePanel.accountView.balanceAllText = walletManager.displayAmount(appWindow.currentWallet.balanceAll()) + " GAL";
+            middlePanel.accountView.unlockedBalanceAllText = walletManager.displayAmount(appWindow.currentWallet.unlockedBalanceAll()) + " GAL";
         }
     }
 
@@ -447,7 +447,7 @@ ApplicationWindow {
             const parsed = walletManager.parse_uri_to_object(normalizedUri);
 
             if (parsed.error) {
-                console.log("Invalid Monero URI: " + parsed.error);
+                console.log("Invalid Galimi URI: " + parsed.error);
             } else {
                 middlePanel.transferView.sendTo(
                     parsed.address || "",
@@ -1478,7 +1478,7 @@ ApplicationWindow {
                 oshelper.createDesktopEntry();
             } else if (isLinux) {
                 confirmationDialog.title = qsTr("Desktop entry") + translationManager.emptyString;
-                confirmationDialog.text  = qsTr("Would you like to register Monero GUI Desktop entry?") + translationManager.emptyString;
+                confirmationDialog.text  = qsTr("Would you like to register Galimi GUI Desktop entry?") + translationManager.emptyString;
                 confirmationDialog.icon = StandardIcon.Question;
                 confirmationDialog.cancelText = qsTr("No") + translationManager.emptyString;
                 confirmationDialog.okText = qsTr("Yes") + translationManager.emptyString;
@@ -1497,7 +1497,7 @@ ApplicationWindow {
         id: persistentSettings
         fileName: {
             if(isTails && tailsUsePersistence)
-                return homePath + "/Persistent/Monero/monero-core.conf";
+                return homePath + "/Persistent/Galimi/galimi-core.conf";
             return "";
         }
 
@@ -2427,7 +2427,7 @@ ApplicationWindow {
             case NetworkType.TESTNET:
                 return 28081;
             default:
-                return 18081;
+                return 28081;
         }
     }
 
