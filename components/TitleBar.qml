@@ -265,33 +265,23 @@ Rectangle {
             visible: root.state == "essentials"
         }
 
-        // monero logo
+        // galimi logo (text; replaces monero title-bar image asset)
         Item {
             visible: walletName.length === 0
             Layout.fillWidth: true
             Layout.preferredHeight: parent.height
 
-            Image {
-                id: imgLogo
-                width: 125
-                height: 28
+            Text {
+                id: txtLogo
+                text: "GALIMI"
+                font.family: MoneroComponents.Style.fontRegular.name
+                font.pixelSize: 20
+                font.letterSpacing: 4
+                color: MoneroComponents.Style.defaultFontColor
+                opacity: 0.9
 
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
-
-                source: MoneroComponents.Style.titleBarLogoSource
-                visible: {
-                    if(!isOpenGL) return true;
-                    if(!MoneroComponents.Style.blackTheme) return true;
-                    return false;
-                }
-            }
-
-            Colorize {
-                visible: isOpenGL && MoneroComponents.Style.blackTheme
-                anchors.fill: imgLogo
-                source: imgLogo
-                saturation: 0.0
             }
         }
 
