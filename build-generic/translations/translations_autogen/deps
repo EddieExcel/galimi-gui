@@ -1,0 +1,9 @@
+translations_autogen/timestamp: \
+	/home/hatch/workspace/monero-fork/galimi-gui/translations/CMakeLists.txt \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake \
+	/usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake \
+	/usr/bin/cmake

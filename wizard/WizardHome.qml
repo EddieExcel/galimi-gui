@@ -66,7 +66,7 @@ Rectangle {
                 WizardHeader {
                     Layout.bottomMargin: 7
                     Layout.fillWidth: true
-                    title: qsTr("Welcome to Monero") + translationManager.emptyString
+                    title: qsTr("Welcome to Galimi") + translationManager.emptyString
                     subtitle: ""
                 }
 
@@ -83,7 +83,7 @@ Rectangle {
                                                                         : nettype === 1 ? " (" + qsTr("testnet") + ")"
                                                                                         : "") + translationManager.emptyString
                 }
-                bodyText: qsTr("Choose this option if this is your first time using Monero.") + translationManager.emptyString
+                bodyText: qsTr("Choose this option if this is your first time using Galimi.") + translationManager.emptyString
                 imageIcon: "qrc:///images/create-wallet.png"
 
                 onMenuClicked: {

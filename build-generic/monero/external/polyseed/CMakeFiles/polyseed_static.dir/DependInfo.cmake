@@ -1,0 +1,38 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/dependency.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/dependency.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/dependency.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/features.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/features.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/features.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/gf.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/gf.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/gf.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/lang.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/lang_cs.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_cs.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_cs.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/lang_en.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_en.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_en.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/lang_es.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_es.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_es.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/lang_fr.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_fr.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_fr.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/lang_it.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_it.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_it.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/lang_jp.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_jp.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_jp.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/lang_ko.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_ko.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_ko.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/lang_pt.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_pt.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_pt.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/lang_zh_s.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_zh_s.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_zh_s.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/lang_zh_t.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_zh_t.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/lang_zh_t.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/polyseed.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/polyseed.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/polyseed.c.o.d"
+  "/home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/storage.c" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/storage.c.o" "gcc" "monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/storage.c.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

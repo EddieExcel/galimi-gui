@@ -1,0 +1,1 @@
+/home/hatch/workspace/monero-fork/galimi-gui/build-generic/monero/src/fcmp_pp/fcmp_pp_rust/x86_64-unknown-linux-gnu/release/libfcmp_pp_rust.a: /home/hatch/workspace/monero-fork/galimi/src/fcmp_pp/fcmp_pp_rust/src/lib.rs

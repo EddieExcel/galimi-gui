@@ -1,0 +1,38 @@
+monero/external/polyseed/CMakeFiles/polyseed_static.dir/src/polyseed.c.o: \
+ /home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/polyseed.c \
+ /usr/include/stdc-predef.h \
+ /home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/include/polyseed.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/dependency.h \
+ /usr/include/assert.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+ /home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/birthday.h \
+ /home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/features.h \
+ /home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/storage.h \
+ /home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/gf.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /home/hatch/workspace/monero-fork/galimi-gui/monero/external/polyseed/src/lang.h \
+ /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h

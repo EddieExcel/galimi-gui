@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Galimi Wallet
+GenericName=Cryptocurrency wallet
+Comment=Galimi Wallet
+Exec=galimi-wallet-gui
+Type=Application
+Terminal=false
+Categories=Network;Qt;Finance;Office;
+Icon=org.galimi.Galimi
+StartupNotify=true

@@ -1,0 +1,5 @@
+qrdecoder_autogen/timestamp: \
+	/home/hatch/workspace/monero-fork/galimi-gui/src/QR-Code-scanner/CMakeLists.txt \
+	/home/hatch/workspace/monero-fork/galimi-gui/src/QR-Code-scanner/Decoder.cpp \
+	/home/hatch/workspace/monero-fork/galimi-gui/src/QR-Code-scanner/Decoder.h \
+	/usr/bin/cmake

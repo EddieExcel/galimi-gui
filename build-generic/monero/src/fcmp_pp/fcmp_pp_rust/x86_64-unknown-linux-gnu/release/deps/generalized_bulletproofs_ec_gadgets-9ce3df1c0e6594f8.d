@@ -1,0 +1,9 @@
+/home/hatch/workspace/monero-fork/galimi-gui/build-generic/monero/src/fcmp_pp/fcmp_pp_rust/x86_64-unknown-linux-gnu/release/deps/generalized_bulletproofs_ec_gadgets-9ce3df1c0e6594f8.d: /home/hatch/.cargo/git/checkouts/monero-oxide-3366610e7b6e517d/31c26d9/crypto/fcmps/ec-gadgets/src/lib.rs /home/hatch/.cargo/git/checkouts/monero-oxide-3366610e7b6e517d/31c26d9/crypto/fcmps/ec-gadgets/src/dlog.rs /home/hatch/.cargo/git/checkouts/monero-oxide-3366610e7b6e517d/31c26d9/crypto/fcmps/ec-gadgets/src/../README.md
+
+/home/hatch/workspace/monero-fork/galimi-gui/build-generic/monero/src/fcmp_pp/fcmp_pp_rust/x86_64-unknown-linux-gnu/release/deps/libgeneralized_bulletproofs_ec_gadgets-9ce3df1c0e6594f8.rlib: /home/hatch/.cargo/git/checkouts/monero-oxide-3366610e7b6e517d/31c26d9/crypto/fcmps/ec-gadgets/src/lib.rs /home/hatch/.cargo/git/checkouts/monero-oxide-3366610e7b6e517d/31c26d9/crypto/fcmps/ec-gadgets/src/dlog.rs /home/hatch/.cargo/git/checkouts/monero-oxide-3366610e7b6e517d/31c26d9/crypto/fcmps/ec-gadgets/src/../README.md
+
+/home/hatch/workspace/monero-fork/galimi-gui/build-generic/monero/src/fcmp_pp/fcmp_pp_rust/x86_64-unknown-linux-gnu/release/deps/libgeneralized_bulletproofs_ec_gadgets-9ce3df1c0e6594f8.rmeta: /home/hatch/.cargo/git/checkouts/monero-oxide-3366610e7b6e517d/31c26d9/crypto/fcmps/ec-gadgets/src/lib.rs /home/hatch/.cargo/git/checkouts/monero-oxide-3366610e7b6e517d/31c26d9/crypto/fcmps/ec-gadgets/src/dlog.rs /home/hatch/.cargo/git/checkouts/monero-oxide-3366610e7b6e517d/31c26d9/crypto/fcmps/ec-gadgets/src/../README.md
+
+/home/hatch/.cargo/git/checkouts/monero-oxide-3366610e7b6e517d/31c26d9/crypto/fcmps/ec-gadgets/src/lib.rs:
+/home/hatch/.cargo/git/checkouts/monero-oxide-3366610e7b6e517d/31c26d9/crypto/fcmps/ec-gadgets/src/dlog.rs:
+/home/hatch/.cargo/git/checkouts/monero-oxide-3366610e7b6e517d/31c26d9/crypto/fcmps/ec-gadgets/src/../README.md:

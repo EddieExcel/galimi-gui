@@ -442,8 +442,8 @@ ApplicationWindow {
     }
 
     function onUriHandler(uri){
-        if (uri && (uri.startsWith("monero://") || uri.startsWith("monero:"))) {
-            const normalizedUri = uri.replace("monero://", "monero:");
+        if (uri && (uri.startsWith("monero://") || uri.startsWith("monero:") || uri.startsWith("galimi://") || uri.startsWith("galimi:"))) {
+            const normalizedUri = uri.replace("monero://", "monero:").replace("galimi://", "galimi:");
             const parsed = walletManager.parse_uri_to_object(normalizedUri);
 
             if (parsed.error) {
@@ -542,7 +542,7 @@ ApplicationWindow {
                     console.error("Error opening wallet with password: ", wallet.errorString);
                     var errorMessage = qsTr("Couldn't open wallet: ") + wallet.errorString;
                     if (wallet.isLedger()) {
-                        errorMessage += "\n" + qsTr("Make sure your Ledger is connected and unlocked, and the Monero app is open.");
+                        errorMessage += "\n" + qsTr("Make sure your Ledger is connected and unlocked, and the Galimi app is open.");
                     } else if (wallet.isTrezor()) {
                         errorMessage += "\n" + qsTr("Make sure your Trezor is connected and unlocked.");
                     }
@@ -831,7 +831,7 @@ ApplicationWindow {
         // resume refresh
         currentWallet.startRefresh();
         informationPopup.title = qsTr("Daemon failed to start") + translationManager.emptyString;
-        informationPopup.text  = error + ".\n\n" + qsTr("Please check your wallet and daemon log for errors. You can also try to start %1 manually.").arg((isWindows)? "monerod.exe" : "monerod")
+        informationPopup.text  = error + ".\n\n" + qsTr("Please check your wallet and daemon log for errors. You can also try to start %1 manually.").arg((isWindows)? "galimid.exe" : "galimid")
         if (middlePanel.advancedView.miningView.stopMiningEnabled == true) {
             walletManager.stopMining()
             p2poolManager.exit()
@@ -1165,10 +1165,10 @@ ApplicationWindow {
                 informationPopup.icon = StandardIcon.Critical;
             } else if (received > 0) {
                 if (in_pool) {
-                    informationPopup.text = qsTr("This address received %1 monero, but the transaction is not yet mined").arg(walletManager.displayAmount(received));
+                    informationPopup.text = qsTr("This address received %1 Galimi, but the transaction is not yet mined").arg(walletManager.displayAmount(received));
                 }
                 else {
-                    informationPopup.text = qsTr("This address received %1 monero, with %2 confirmation(s).").arg(walletManager.displayAmount(received)).arg(confirmations);
+                    informationPopup.text = qsTr("This address received %1 Galimi, with %2 confirmation(s).").arg(walletManager.displayAmount(received)).arg(confirmations);
                 }
             }
             else {
@@ -1556,7 +1556,7 @@ ApplicationWindow {
         property int walletMode: 2
         property int lockOnUserInActivityInterval: 10  // minutes
         property bool blackTheme: MoneroComponents.Style.blackTheme
-        property bool checkForUpdates: true
+        property bool checkForUpdates: false
         property bool autosave: true
         property int autosaveMinutes: 10
         property bool pruneBlockchain: false

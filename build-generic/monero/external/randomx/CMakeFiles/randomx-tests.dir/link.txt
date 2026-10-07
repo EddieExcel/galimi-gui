@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -maes -DNDEBUG -O3 -ffast-math -fno-semantic-interposition "CMakeFiles/randomx-tests.dir/src/tests/tests.cpp.o" -o randomx-tests  librandomx.a 

@@ -49,8 +49,12 @@ Rectangle {
 
     function parseWalletRestoreUri(data) {
         var prefix = ""
-        if (data.indexOf("monero-wallet:") === 0)
+        if (data.indexOf("galimi-wallet:") === 0)
+            prefix = "galimi-wallet:"
+        else if (data.indexOf("monero-wallet:") === 0)
             prefix = "monero-wallet:"
+        else if (data.indexOf("galimi_wallet:") === 0)
+            prefix = "galimi_wallet:"
         else if (data.indexOf("monero_wallet:") === 0)
             prefix = "monero_wallet:"
         else

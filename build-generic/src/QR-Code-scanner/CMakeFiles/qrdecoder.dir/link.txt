@@ -1,0 +1,2 @@
+/usr/bin/ar qc libqrdecoder.a CMakeFiles/qrdecoder.dir/qrdecoder_autogen/mocs_compilation.cpp.o CMakeFiles/qrdecoder.dir/Decoder.cpp.o
+/usr/bin/ranlib libqrdecoder.a

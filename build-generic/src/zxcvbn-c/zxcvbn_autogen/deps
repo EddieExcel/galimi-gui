@@ -1,0 +1,5 @@
+zxcvbn_autogen/timestamp: \
+	/home/hatch/workspace/monero-fork/galimi-gui/src/zxcvbn-c/CMakeLists.txt \
+	/home/hatch/workspace/monero-fork/galimi-gui/src/zxcvbn-c/zxcvbn.c \
+	/home/hatch/workspace/monero-fork/galimi-gui/src/zxcvbn-c/zxcvbn.h \
+	/usr/bin/cmake

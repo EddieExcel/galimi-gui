@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/polyseed_static.dir/src/dependency.c.o"
+  "CMakeFiles/polyseed_static.dir/src/dependency.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/features.c.o"
+  "CMakeFiles/polyseed_static.dir/src/features.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/gf.c.o"
+  "CMakeFiles/polyseed_static.dir/src/gf.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/lang.c.o"
+  "CMakeFiles/polyseed_static.dir/src/lang.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/lang_cs.c.o"
+  "CMakeFiles/polyseed_static.dir/src/lang_cs.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/lang_en.c.o"
+  "CMakeFiles/polyseed_static.dir/src/lang_en.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/lang_es.c.o"
+  "CMakeFiles/polyseed_static.dir/src/lang_es.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/lang_fr.c.o"
+  "CMakeFiles/polyseed_static.dir/src/lang_fr.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/lang_it.c.o"
+  "CMakeFiles/polyseed_static.dir/src/lang_it.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/lang_jp.c.o"
+  "CMakeFiles/polyseed_static.dir/src/lang_jp.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/lang_ko.c.o"
+  "CMakeFiles/polyseed_static.dir/src/lang_ko.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/lang_pt.c.o"
+  "CMakeFiles/polyseed_static.dir/src/lang_pt.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/lang_zh_s.c.o"
+  "CMakeFiles/polyseed_static.dir/src/lang_zh_s.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/lang_zh_t.c.o"
+  "CMakeFiles/polyseed_static.dir/src/lang_zh_t.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/polyseed.c.o"
+  "CMakeFiles/polyseed_static.dir/src/polyseed.c.o.d"
+  "CMakeFiles/polyseed_static.dir/src/storage.c.o"
+  "CMakeFiles/polyseed_static.dir/src/storage.c.o.d"
+  "libpolyseed.a"
+  "libpolyseed.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/polyseed_static.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
