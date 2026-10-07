@@ -1,0 +1,2 @@
+/usr/bin/ar qc libwire-json.a "CMakeFiles/wire-json.dir/write.cpp.o"
+/usr/bin/ranlib libwire-json.a

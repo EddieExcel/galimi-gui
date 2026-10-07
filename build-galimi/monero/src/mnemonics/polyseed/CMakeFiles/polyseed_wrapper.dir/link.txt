@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpolyseed_wrapper.a CMakeFiles/obj_polyseed_wrapper.dir/pbkdf2.c.o CMakeFiles/obj_polyseed_wrapper.dir/polyseed.cpp.o
+/usr/bin/ranlib libpolyseed_wrapper.a

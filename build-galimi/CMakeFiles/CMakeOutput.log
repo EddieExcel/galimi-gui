@@ -1,0 +1,90 @@
+Determining if the -Wl,--no-undefined linker flag is supported passed with the following output:
+Change Dir: '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_62a1a/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_62a1a.dir/build.make CMakeFiles/cmTC_62a1a.dir/build
+gmake[1]: Entering directory '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62a1a.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,--no-undefined  -std=c11   -Wl,--no-undefined -o CMakeFiles/cmTC_62a1a.dir/CheckLinkerFlag.c.o -c /home/hatch/workspace/monero-fork/galimi-gui/monero/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_62a1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62a1a.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,--no-undefined  CMakeFiles/cmTC_62a1a.dir/CheckLinkerFlag.c.o -o cmTC_62a1a 
+gmake[1]: Leaving directory '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the -Wl,-undefined,error linker flag is supported passed with the following output:
+Change Dir: '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6555b/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_6555b.dir/build.make CMakeFiles/cmTC_6555b.dir/build
+gmake[1]: Entering directory '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6555b.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,-undefined,error  -std=c11   -Wl,-undefined,error -o CMakeFiles/cmTC_6555b.dir/CheckLinkerFlag.c.o -c /home/hatch/workspace/monero-fork/galimi-gui/monero/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_6555b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6555b.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,-undefined,error  CMakeFiles/cmTC_6555b.dir/CheckLinkerFlag.c.o -o cmTC_6555b 
+gmake[1]: Leaving directory '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the -pie linker flag is supported passed with the following output:
+Change Dir: '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_856f6/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_856f6.dir/build.make CMakeFiles/cmTC_856f6.dir/build
+gmake[1]: Entering directory '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_856f6.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -pie  -std=c11   -pie -o CMakeFiles/cmTC_856f6.dir/CheckLinkerFlag.c.o -c /home/hatch/workspace/monero-fork/galimi-gui/monero/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_856f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_856f6.dir/link.txt --verbose=1
+/usr/bin/cc -pie  CMakeFiles/cmTC_856f6.dir/CheckLinkerFlag.c.o -o cmTC_856f6 
+gmake[1]: Leaving directory '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the -Wl,-z,relro linker flag is supported passed with the following output:
+Change Dir: '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_64d47/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_64d47.dir/build.make CMakeFiles/cmTC_64d47.dir/build
+gmake[1]: Entering directory '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64d47.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,-z,relro  -std=c11   -Wl,-z,relro -o CMakeFiles/cmTC_64d47.dir/CheckLinkerFlag.c.o -c /home/hatch/workspace/monero-fork/galimi-gui/monero/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_64d47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64d47.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,-z,relro  CMakeFiles/cmTC_64d47.dir/CheckLinkerFlag.c.o -o cmTC_64d47 
+gmake[1]: Leaving directory '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the -Wl,-z,now linker flag is supported passed with the following output:
+Change Dir: '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f6d3b/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_f6d3b.dir/build.make CMakeFiles/cmTC_f6d3b.dir/build
+gmake[1]: Entering directory '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6d3b.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,-z,now  -std=c11   -Wl,-z,now -o CMakeFiles/cmTC_f6d3b.dir/CheckLinkerFlag.c.o -c /home/hatch/workspace/monero-fork/galimi-gui/monero/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_f6d3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6d3b.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,-z,now  CMakeFiles/cmTC_f6d3b.dir/CheckLinkerFlag.c.o -o cmTC_f6d3b 
+gmake[1]: Leaving directory '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the -Wl,-z,noexecstack linker flag is supported passed with the following output:
+Change Dir: '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a9f40/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_a9f40.dir/build.make CMakeFiles/cmTC_a9f40.dir/build
+gmake[1]: Entering directory '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9f40.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,-z,noexecstack  -std=c11   -Wl,-z,noexecstack -o CMakeFiles/cmTC_a9f40.dir/CheckLinkerFlag.c.o -c /home/hatch/workspace/monero-fork/galimi-gui/monero/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_a9f40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9f40.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,-z,noexecstack  CMakeFiles/cmTC_a9f40.dir/CheckLinkerFlag.c.o -o cmTC_a9f40 
+gmake[1]: Leaving directory '/home/hatch/workspace/monero-fork/galimi-gui/build-galimi/CMakeFiles/CMakeTmp'
+
+
+

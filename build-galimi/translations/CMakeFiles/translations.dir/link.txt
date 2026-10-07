@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtranslations.a CMakeFiles/translations.dir/translations_autogen/mocs_compilation.cpp.o CMakeFiles/translations.dir/qrc_translations.cpp.o
+/usr/bin/ranlib libtranslations.a

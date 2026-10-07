@@ -1,0 +1,2 @@
+/usr/bin/ar qc libquirc.a CMakeFiles/quirc.dir/quirc/lib/decode.c.o CMakeFiles/quirc.dir/quirc/lib/identify.c.o CMakeFiles/quirc.dir/quirc/lib/quirc.c.o CMakeFiles/quirc.dir/quirc/lib/version_db.c.o
+/usr/bin/ranlib libquirc.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libopenpgp.a CMakeFiles/openpgp.dir/openpgp_autogen/mocs_compilation.cpp.o CMakeFiles/openpgp.dir/openpgp.cpp.o
+/usr/bin/ranlib libopenpgp.a
